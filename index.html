@@ -177,45 +177,6 @@
     <div class="copy">
         <p>AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</p>
     </div>
-
-    <script>
-        const mission = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        });
-
-        document.querySelectorAll('.mission').forEach(block => {
-            mission.observe(block);
-        });
-
-        const vision = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        });
-
-        document.querySelectorAll('.vision').forEach(block => {
-            vision.observe(block);
-        });
-
-        const activities = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        });
-
-        document.querySelectorAll('.activities-card').forEach(block => {
-            activities.observe(block);
-        });
-
-    </script>
 </body>
 
 </html>
